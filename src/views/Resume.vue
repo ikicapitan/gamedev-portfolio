@@ -3,24 +3,22 @@
     <h1>Resume</h1>
 
     <div class="paragraph">
-      I'm <strong>John Matrix</strong>, a former Delta Force operative with lots of experience, lots of training and huge muscles.
-      <br />After graduating from kindergarten, I've been enrolled in the army for 25 years, where I learned to destroy things in an amazing number of ways.
-      <br />I joined the Delta Force because I thought it was Greek lessons, but I quickly adapted to this unexpected environment and became a key element.
-      <br />I love teamwork, but I can also go in solo depending on the mission requirements.
+      I'm <strong>Alan Wilhelm (known as Iki)</strong>, a creator of different artistic projects on different disciplines.
+      <br />Graduated as a technician game developer & designer in 2018, I've been working teaching, writing books, making videos and doing projects (mostly games) under contract for some companies.
+      <br />Before my graduation, I was already learning and teaching on Youtube and creating Udemy courses.
+      <br />I worked on variable enviorements, solo or as a team.
       <br />
-      <br />Right now I'm trying to find inner peace after I've read some personal development books. I'm looking for a monk job so if you have any opportunity feel free to 
-      <router-link to="/contact">contact me</router-link>.
+      <br />For two years now I have been working hard creating my own games while learning Unreal Engine.
       <br />
-      <br />Besides war, I'm passionate about firearms, martial arts, explosions, push-ups and flowers.
+      <br />Besides that, I made several songs and participated on a couple of bands as a musician. Also I've been prototyping storybooks and playing around with different ways of making art.
 
-      <div style="margin-top:20px; margin-bottom:20px;">
+      <div style="margin-top:20px; margin-bottom:20px;" v-if="false">
         <a class="download-link" href="d/resume-en.pdf" target="_blank"><i class="fa fa-download fa-lg fa-fw"></i> Download as PDF 🇬🇧</a>
-        <a class="download-link" href="d/cv-fr.pdf" target="_blank"><i class="fa fa-download fa-lg fa-fw"></i> Télécharger en PDF 🇫🇷</a>
         <div style="clear:both"></div>
       </div>
     </div>
     <div class="photo">
-      <img src="img/resume-photo.png" alt="Photo of John" />
+      <img src="img/resume-photo.png" alt="Photo of Alan Wilhelm (Iki)" />
     </div>
 
     <div style="clear:both"></div>
@@ -28,79 +26,86 @@
     <div class="full-content">
       <h2>Work experience</h2>
 
-      <h3>Operation Classified - Delta Force</h3>
-      <h4>2018-2019</h4>
+      <h3>Founder & Game Developer - Ikimiuki🐾</h3>
+      <h4>2019-Present</h4>
 
-      <div>It's classified so I can't speak about it.</div>
+      <div>Developing my own videogames, books, courses, and music (from concept to release).</div>
 
-      <div class="tech-stack">Firearms, knives, grenades, Hummer vehicle, parachute,...</div>
+      <div class="tech-stack">Unreal Engine 5, Unity, C++, C#, Epic Online Services (EOS), Steam SDK,  UEFN, Jira, Github, Blender</div>
 
-      <h3>Operation Classified - Delta Force</h3>
-      <h4>2015-2017</h4>
+      <h3>Senior Tool Developer - The Sandbox</h3>
+      <h4>2022-2023</h4>
 
-      <div>It's classified so I can't speak about it.</div>
+      <div>Contributed to the development of VoxEdit (voxel animation software) by implementing new features, optimizing workflows, and resolving technical issues.</div>
 
-      <div class="tech-stack">Even more Firearms, knives, grenades, Hummer vehicle, parachute,...</div>
+      <div class="tech-stack">Processing, Java, Jira, ClickUp, Scrum, Github, Slack</div>
 
-      <h3>Operation Classified - Delta Force</h3>
-      <h4>2012-2015</h4>
+      <h3>Content Creator & Instructor – Escuela de Juegos (YouTube Educational Channel)</h3>
+      <h4>2017-2023</h4>
 
-      <div>It's classified so I can't speak about it.</div>
+      <div>Created and taught video lessons on game development, reaching more than 12.000 suscribers.</div>
 
-      <div class="tech-stack">Firearms, knives, grenades, Hummer vehicle, parachute,...</div>
+      <div class="tech-stack">Godot Engine (2, 3 & 4), Unity, OpenGL, Box2D, SFML 2, Haxeflixel, Arduino, C++, C#, GDScript</div>
+
+      <h3>Instructor – Udemy</h3>
+      <h4>2018-2023</h4>
+
+      <div>Created over 10 courses on game development, reaching more than 10,000 students worldwide.</div>
+
+      <div class="tech-stack">Godot Engine (3 & 4), Unity, GDScript, C#</div>
+
+      <h3>Game Programmer – Champ Productions</h3>
+      <h4>2021-2022</h4>
+
+      <div>Sole Game Programmer for a turn-based online Soccer Trivia videogame (for Android & iOS), responsible for all gameplay systems, scoring mechanics, user interface, and networked multiplayer functionality.</div>
+
+      <div class="tech-stack">Godot Engine 3 (prototyping), Unity (production version), Firebase, LAMP (Linux, Apache, MySQL & PHP), Google Cloud Platform</div>
+
+      <h3>University Instructor – Universidad Nacional del Litoral</h3>
+      <h4>2021-2022</h4>
+
+      <div>Taught the "Introduction to C++" course for the Video Game Technical Degree program, covering foundational programming concepts and practical exercises.</div>
+
+      <div class="tech-stack">C++, ZinjaI, Moodle</div>
+
+      <h3>Composer & Producer</h3>
+      <h4>2005-2018</h4>
+
+      <div>Band & Videogame Music Composer – Independent Projects.</div>
+
+      <div class="tech-stack">Cubase, Guitar Pro, Reason, Cakewalk, Amplitube, Guitar Rig, Spectrasonics, Bias FX, EzDrummer</div>
+
 
       <h2>Skills</h2>
 
       <div class="skill-set">
-        <h3>Lethal</h3>
-        <SkillRate name="Handguns" :rate="5" />
-        <SkillRate name="Rifles" :rate="5" />
-        <SkillRate name="Shotguns" :rate="5" />
-        <SkillRate name="Machineguns" :rate="5" />
-        <SkillRate name="Missile launchers" :rate="5" />
-        <SkillRate name="Knives" :rate="5" />
-        <SkillRate name="Hand to hand combat" :rate="5" />
+        <h3>Game Development</h3>
+        <SkillRate name="Unreal Engine" :rate="4" />
+        <SkillRate name="Unity" :rate="4" />
+        <SkillRate name="Godot Engine" :rate="4" />
+        <SkillRate name="C++/C#" :rate="4" />
+        <SkillRate name="Networking/Multiplayer" :rate="2" />
+        <SkillRate name="Game Design (GDD)" :rate="3" />
       </div>
 
-      <div class="skill-set">
-        <h3>Non-lethal</h3>
-        <SkillRate name="Sneaking" :rate="1" />
-        <SkillRate name="Negotiation" :rate="1" />
-        <SkillRate name="Seduction" :rate="1" />
-        <SkillRate name="Sense of humor" :rate="2" />
-      </div>
       <div style="clear:both" />
 
       <h2>Education</h2>
 
-      <h3>Kindergarten - 1985</h3>
-      <h4>Kindergarten degree</h4>
-      <div>Specialty in bullying and fighting (58 wins, 58 K-O, 0 losses)</div>
+      <h3>Technical Degree in Game Design and Development - Universidad Nacional del Litoral</h3>
+      <h4>2015 - 2018</h4>
+      <div>Key Skills Acquired: C++, SFML 2, OpenGL, Box2D, Unity, Godot Engine, HaxeFlixel</div>
 
       <h2>Languages</h2>
 
-      <h3>American</h3>
-      <div>Basic knowledge but I know lots of one-liners</div>
+      <h3>Spanish</h3>
+      <div>Native language</div>
 
-      <h3>That's it</h3>
-      <div>Who needs another language when you speak American?</div>
+      <h3>English</h3>
+      <div>Intermediate Level</div>
 
 
-      <h2>Besides...</h2>
-      <div>
-        <h3>I ❤️ Violence</h3>
-        <div>I find it really soothing to just shoot at bad guys</div>
 
-        <h3>I 🧡 Sports</h3>
-        <div>I used to be thin but then I ingested 10 kilos of steroids and proteins a day while doing 1000 push-ups.</div>
-
-        <h3>I 💛 Politics</h3>
-        <div>I hope I can have a career here someday but I might have temper issues.</div>
-
-        <h3>I 💚 Flowers</h3>
-        <div>Especially the big ones, with the trunk and leaves.</div>
-
-      </div>
     </div>
   </div>
 </template>
