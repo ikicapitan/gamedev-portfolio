@@ -49,10 +49,10 @@ In 2025, I took the effort to release a local offline version of the game, which
     <div class="paragraph">
         <strong>Epic Heroes</strong> is a 2D strategy and action game where players control a squad of four elite members, each with unique abilities, to overcome challenging scenarios. The goal is to neutralize hostile forces, protect civilians, and successfully resolve critical situations.
 The game was developed for Android and was available for free both via browser and on Google Play until 2024.
-It was created entirely by me as the sole programmer, during multiple live streaming sessions, with valuable contributions from my followers in terms of ideas and graphics.
-    </div>
+It was created entirely by me as the sole programmer, during multiple live streaming sessions, with valuable contributions from my followers in terms of ideas and graphics. An enhanced version was published on Itch.io on 2025.
+
     <div class="paragraph center">
-        <iframe class="youtube" src="https://www.youtube.com/embed/gjTa2QCxVRk" frameborder="0" allowfullscreen></iframe>
+    <img class="pc-screenshot" src="img/projects/background.jpg" alt="HE" />
     </div>
 
     <div class="paragraph">
@@ -87,6 +87,8 @@ It was created entirely by me as the sole programmer, during multiple live strea
     <div class="paragraph center">
     <img class="pc-screenshot" src="img/projects/he1.png" alt="HE" />
     <img class="pc-screenshot" src="img/projects/he2.png" alt="HE" />
+    <img class="pc-screenshot" src="img/projects/he3.png" alt="HE" />
+    <img class="pc-screenshot" src="img/projects/he4.png" alt="HE" />
     </div>
     `, "#5a78af"),
     new ProjectData("project-3", "VideoGame Recreations", "img/projects/project-3-icon.png", `
